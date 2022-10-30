@@ -1,9 +1,3 @@
-# Fingerprint audio files & identify what's playing
-
-- conference [PaceMaker: BackEnd-2016 conference](http://www.pacemaker.in.ua/BackEnd-2016/about)
-- slides are on [slideshare.net/rodomansky/ok-shazam-la-lalalaa](http://www.slideshare.net/rodomansky/ok-shazam-la-lalalaa)
-
-![](http://new.tinygrab.com/7020c0e8b010392da4053fa90ab8e0c8419bded864.png)
 
 ## How to set up 
 
@@ -23,7 +17,7 @@
   $ python sql-execute.py -q "DELETE FROM fingerprints WHERE song_fk = 6;"
   ```
 
-## Thanks to
+## Notes I take it from
 - [How does Shazam work](http://coding-geek.com/how-shazam-works/)
 - [Audio fingerprinting and recognition in Python](https://github.com/worldveil/dejavu) - thanks for fingerprinting login via pynum
 - [Audio Fingerprinting with Python and Numpy](http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
