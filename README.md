@@ -1,6 +1,8 @@
 
 ## How to set up 
 
+In Linux
+
 1. Run `$ make clean reset` to clean & init database struct
 1. Run `$ make tests` to make sure that everything is properly configurated
 1. Copy some `.mp3` audio files into `mp3/` directory
@@ -9,13 +11,6 @@
 
 ![](http://new.tinygrab.com/7020c0e8b0393eec4a18c62170458c029577d378c2.png)
 
-## How to
-- To remove a specific song & related hash from db
-
-  ```bash
-  $ python sql-execute.py -q "DELETE FROM songs WHERE id = 6;"
-  $ python sql-execute.py -q "DELETE FROM fingerprints WHERE song_fk = 6;"
-  ```
 
 ## Notes I take it from
 - [How does Shazam work](http://coding-geek.com/how-shazam-works/)
