@@ -31,6 +31,15 @@ Follow the steps below to set up the project on your local machine.
 - **Python**: Version 3.x
 - **Microphone**: A working microphone is required for real-time audio recognition
 
+This project is also built as simple web application built using Flask, a lightweight web framework for Python. It demonstrates the basics of setting up a Flask application, including routing, templates, and static file handling.
+
+## Features
+
+- **Basic Web Server**: Serves a home page.
+- **Routing**: Demonstrates basic routing to different pages.
+- **Templates**: Uses HTML templates to render dynamic content.
+- **Static Files**: Serves static files such as CSS and JavaScript.
+- 
 ### Step 1: Clone the Repository
 
 First, clone the project repository to your local machine:
@@ -62,7 +71,7 @@ pip install -r requirements.txt
 - Alternatively, you can manually install the required packages:
 
 ```bash
-pip install numpy termcolor pyaudio wave pydub
+pip install numpy termcolor pyaudio wave pydub flask
 ```
 
 ### Step 4: Set Up the Database
